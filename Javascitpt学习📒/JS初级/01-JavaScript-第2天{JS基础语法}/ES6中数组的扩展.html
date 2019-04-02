@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+            // #ES6中数组的方法
+            // ##indexof() lastindexof foreach map(最终返回值是个新的数组) filter(返回的是一个新的数组)
+
+
+        // var arr = [1,'2',3,4,5,6,7,5,7,8,94,45,5656,43534,3,4,'2',4]
+        //    console.log( arr.lastIndexOf('2'));
+
+        const arr = [1,4,6,7,34,6,7]
+        arr.forEach((item,index)=>{
+            console.log(item+'----'+index);
+        })
+        
+      var arr2 = arr.map((item,index)=>item+10
+        )
+
+       console.log(arr);
+       console.log(arr2);
+
+       var arr3 =  arr.filter((item,index)=>item>5)
+            console.log(arr3);
+       
+    </script>
+</body>
+</html>
